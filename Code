@@ -1,0 +1,96 @@
+#made by the one and only FondZz
+
+num1 = input("Enter a number to add")
+num1 = int(num1)
+num2 = input("Enter another number to add")
+num2 =int(num2)
+
+
+result = num1 + num2
+
+print(f'your total is {result}')
+
+
+devp = num1 / num2
+
+
+print(f'your total would be {devp} if you divided.')
+
+
+multiply = num1 * num2
+
+
+print(f'your total would be {multiply} if you multiplied.')
+
+
+minus = num1 - num2
+
+
+print(f'your total would be {minus} if you took away.')
+
+asd = num1 ** num2
+
+print(f'your total is would be {asd} if you used Exponentiation.')
+
+reee = (round(result))
+
+print(f'your total would be {reee} if you rounded.')
+
+x = result
+r = x % 2
+
+if r==0:
+    print("Your total is even.")
+if(r==1):
+    print(f"your number which is {result} is odd.")
+
+aff = num1 & num2
+
+
+mul1 = input("Enter a Number To multiply")
+mul1 =int(mul1)
+
+mul2 = input("Enter another Number To multiply")
+mul2 =int(mul2)
+
+re = mul1 * mul2
+
+print(f'your total is {re}.')
+
+
+
+div1 = input("Enter a Number To divide")
+div1 =int(div1)
+
+
+div2 = input("Enter another Number To divide")
+div2 =int(div2)
+
+de = div1 / div2
+
+print(f'your total is, {de}')
+
+
+minus1 = input("Enter a Number To minus")
+minus1 =int(minus1)
+
+minus2 = input("Enter another Number To minus")
+minus2 =int(minus2)
+
+minu = minus1 - minus2
+
+print(f'your total is {minu}.')
+
+f1 = input("Enter a Number To The Exponent")
+f1 =int(f1)
+
+f2 = input("Enter another Number To The Exponent")
+f2 =int(f2)
+
+fr = f1 ** f2
+
+print(f'your total is {fr}.')
+
+
+thanks = ("Thanks For Using My Code :)")
+print(thanks)
