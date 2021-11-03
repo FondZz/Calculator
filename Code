@@ -1,5 +1,23 @@
 #made by the one and only FondZz
 
+
+v = input("Hello ")
+if v != ("hi"):
+    print("sorry i don't understand what that means")
+
+
+    print("hey")
+else:
+    print("Welcome")
+
+name =input("Please enter your name ")
+
+if name == "fondzz":
+    print("Hmmm i think i know you.")
+
+
+print(f'Hello {name}! And Welcome to my calculator.')
+
 num1 = input("Enter a number to add")
 num1 = int(num1)
 num2 = input("Enter another number to add")
@@ -32,9 +50,6 @@ asd = num1 ** num2
 
 print(f'your total is would be {asd} if you used Exponentiation.')
 
-reee = (round(result))
-
-print(f'your total would be {reee} if you rounded.')
 
 x = result
 r = x % 2
@@ -66,9 +81,14 @@ div1 =int(div1)
 div2 = input("Enter another Number To divide")
 div2 =int(div2)
 
+
 de = div1 / div2
 
 print(f'your total is, {de}')
+
+reee = (round(de))
+
+print(f'your total would be {reee} if you rounded.')
 
 
 minus1 = input("Enter a Number To minus")
