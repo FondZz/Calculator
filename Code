@@ -2,11 +2,10 @@
 
 
 v = input("Hello ")
-if v != ("hi"):
+if v != ("hello"):
     print("sorry i don't understand what that means")
 
 
-    print("hey")
 else:
     print("Welcome")
 
@@ -18,15 +17,24 @@ if name == "fondzz":
 
 print(f'Hello {name}! And Welcome to my calculator.')
 
-num1 = input("Enter a number to add")
+num1 = input("Enter a number. ")
 num1 = int(num1)
-num2 = input("Enter another number to add")
+num2 = input("Enter another number. ")
 num2 =int(num2)
 
 
 result = num1 + num2
 
-print(f'your total is {result}')
+
+resu = num1 + num2
+
+a =input("do you want to add {y/n}")
+if a ==("y"):
+
+ print(f'your total is {resu}')
+
+else:
+    print("Im a calculator. I only add")
 
 
 devp = num1 / num2
@@ -114,3 +122,4 @@ print(f'your total is {fr}.')
 
 thanks = ("Thanks For Using My Code :)")
 print(thanks)
+
